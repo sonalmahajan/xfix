@@ -7,7 +7,7 @@ Sonal Mahajan, Abdulmajeed Alameer, Phil McMinn, William G. J. Halfond
 In Proceedings of the 26th International Symposium on Software Testing and Analysis (ISSTA). July 2017. Acceptance rate: 26%. (To Appear) 
 ```
 ## How to run XFix?
-1. Run [TestXFix.java] (https://github.com/sonalmahajan/xfix/blob/master/src/test/java/eval/TestXFix.java) from the xfix project by passing the following inputs as Strings:
+1. Run  [TestXFix.java](https://github.com/sonalmahajan/xfix/blob/master/src/test/java/eval/TestXFix.java) from the xfix project by passing the following inputs as Strings:
 	(a) URL of the page under test (PUT)
 	(b) File system location of the PUT
 	(c) Reference browser (FIREFOX/CHROME/INTERNET_EXPLORER) that shows the correct layout of the PUT
@@ -20,7 +20,7 @@ In Proceedings of the 26th International Symposium on Software Testing and Analy
 	
 ## Evaluation Data
 #### Subjects: 
-The 15 real-world web pages used in the evaluation of XFix can be downloaded [here](https://drive.google.com/file/d/0B5pAs3GeZs4sRXhQYWtPUmc2LXc/view?usp=sharing)
+The 15 real-world web pages used in the evaluation of XFix can be downloaded [here](https://drive.google.com/file/d/0B5pAs3GeZs4sRXhQYWtPUmc2LXc/view?usp=sharing).
 
 #### Human Study Data: 
-The *reference*, *before*, and *after* versions of the 15 subjects shown to the human study participants can be found (here)[https://drive.google.com/open?id=0B5pAs3GeZs4sbFdfWG4wdXdabk0]. Open index.html from the subjects folder to navigate through the screenshots. The participant marked (circled) areas of visual differences can be found (here)[https://drive.google.com/open?id=0B5pAs3GeZs4sZUZBX2lSRHZLdU0]. 
+The *reference*, *before*, and *after* versions of the 15 subjects shown to the human study participants can be found [here](https://drive.google.com/open?id=0B5pAs3GeZs4sbFdfWG4wdXdabk0). Open index.html from the subjects folder to navigate through the screenshots. The participant marked (circled) areas of visual differences can be found [here](https://drive.google.com/open?id=0B5pAs3GeZs4sZUZBX2lSRHZLdU0).
