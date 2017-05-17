@@ -7,13 +7,13 @@ Sonal Mahajan, Abdulmajeed Alameer, Phil McMinn, William G. J. Halfond
 In Proceedings of the 26th International Symposium on Software Testing and Analysis (ISSTA). July 2017. Acceptance rate: 26%. (To Appear) 
 ```
 ## How to run XFix?
-1. Run  [TestXFix.java](https://github.com/sonalmahajan/xfix/blob/master/src/test/java/eval/TestXFix.java) from the xfix project by passing the following inputs as Strings:<br />
+1. **Inputs:** Run  [TestXFix.java](https://github.com/sonalmahajan/xfix/blob/master/src/test/java/eval/TestXFix.java) from the xfix project by passing the following inputs as Strings:<br />
 	(a) URL of the page under test (PUT)<br />
 	(b) File system location of the PUT<br />
 	(c) Reference browser (FIREFOX/CHROME/INTERNET_EXPLORER) that shows the correct layout of the PUT<br />
 	(d) Test browser (FIREFOX/CHROME/INTERNET_EXPLORER) that shows a layout inconsistency with respect to the reference browser.
 
-2. The output produced by XFix can be found in the parent folder of the location provided in input (b):<br />
+2. **Output:** The output produced by XFix can be found in the parent folder of the location provided in input (b):<br />
 	(a) log_<timestamp>.txt: stores the detailed log information of one run of the subject. The generated repair patch and summary of the timing results and XBI reduction can be found at the end of this file.<br />
 	(b) repair.css: Generated CSS file with the repair patch to fix the observed XBIs. The repair patches are generated specific to the test browser with the relative fix values applied to the CSS properties and their absolute values shown in comments.<br />
 	(c) test_fixed.html: Modified PUT with the repair.css file applied.
