@@ -13,7 +13,7 @@ In Proceedings of the 26th International Symposium on Software Testing and Analy
 	(c) Reference browser (FIREFOX/CHROME/INTERNET_EXPLORER) that shows the correct layout of the PUT<br />
 	(d) Test browser (FIREFOX/CHROME/INTERNET_EXPLORER) that shows a layout inconsistency with respect to the reference browser.
 
-2. The output produced by XFix can be found in the parent folder of location provided in input (b):<br />
+2. The output produced by XFix can be found in the parent folder of the location provided in input (b):<br />
 	(a) log_<timestamp>.txt: stores the detailed log information of one run of the subject. The generated repair patch and summary of the timing results and XBI reduction can be found at the end of this file.<br />
 	(b) repair.css: Generated CSS file with the repair patch to fix the observed XBIs. The repair patches are generated specific to the test browser with the relative fix values applied to the CSS properties and their absolute values shown in comments.<br />
 	(c) test_fixed.html: Modified PUT with the repair.css file applied.
@@ -24,3 +24,6 @@ The 15 real-world web pages used in the evaluation of XFix can be downloaded [he
 
 #### Human Study Data: 
 The *reference*, *before*, and *after* versions of the 15 subjects shown to the human study participants can be found [here](https://drive.google.com/open?id=0B5pAs3GeZs4sbFdfWG4wdXdabk0). Open index.html from the subjects folder to navigate through the screenshots. The participant marked (circled) areas of visual differences can be found [here](https://drive.google.com/open?id=0B5pAs3GeZs4sZUZBX2lSRHZLdU0).
+
+## Questions
+Incase of any questions you can email at spmahaja [at] usc {dot} edu
