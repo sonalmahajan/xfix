@@ -19,6 +19,9 @@ In Proceedings of the 26th International Symposium on Software Testing and Analy
 	(c) test_fixed.html: Modified PUT with the repair.css file applied.
 	
 ## Evaluation Data
+#### Our patched version of X-PERT: 
+Our patched version of the X-PERT tool can be found [here](http://atlanta.usc.edu:8081/artifactory/ext-release-local/patched-xpert/patched-xpert/1.0.0/) as a jar file. The jar contains a "README.txt" with details of the defects that were corrected and the accessor methods that were added. The jar can be unpackaged using the command `jar xf patched-xpert-1.0.0.jar`.
+
 #### Subjects: 
 The 15 real-world web pages used in the evaluation of XFix can be downloaded [here](https://drive.google.com/file/d/0B5pAs3GeZs4sRXhQYWtPUmc2LXc/view?usp=sharing).
 
