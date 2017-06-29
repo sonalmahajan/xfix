@@ -356,7 +356,7 @@ public class XbiMainIterator
 					RootCause oldGene = chromosome.getGene(g.getXpath());
 					RootCause newGene = chromosome.getGene(g.getXpath()).copy();
 					for(String property : g.getPropValueMap().keySet())
-					newGene.addProperty(property, g.getPropValueMap().get(property));
+						newGene.addProperty(property, g.getPropValueMap().get(property));
 					newGene.clearProcessedProperties();
 					chromosome.replaceGene(oldGene, newGene);
 				}

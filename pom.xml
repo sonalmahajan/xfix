@@ -74,6 +74,12 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+		
+		<dependency>
 			<groupId>patched-xpert</groupId>
 			<artifactId>patched-xpert</artifactId>
 			<version>1.0.0</version>
