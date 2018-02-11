@@ -4,7 +4,8 @@ Cross Browser Issues (XBIs) are inconsistencies in the appearance or behavior of
 ```
 Automated Repair of Layout Cross Browser Issues Using Search-Based Techniques
 Sonal Mahajan, Abdulmajeed Alameer, Phil McMinn, William G. J. Halfond
-In Proceedings of the 26th International Symposium on Software Testing and Analysis (ISSTA). July 2017. Acceptance rate: 26%. (To Appear) 
+In Proceedings of the 26th International Symposium on Software Testing and Analysis (ISSTA). July 2017. Acceptance rate: 26%.
+https://dl.acm.org/citation.cfm?doid=3092703.3092726
 ```
 ## How to run XFix?
 1. **Inputs:** Run  [TestXFix.java](https://github.com/sonalmahajan/xfix/blob/master/src/test/java/eval/TestXFix.java) from the xfix project by passing the following inputs as Strings:<br />
